@@ -26,7 +26,7 @@ Then unpack all three of them into the following directories accordingly:
 	
 After that you will need to run:
 
-  $ install.bat
+    $ install.bat
 
 Introduction
 =======
