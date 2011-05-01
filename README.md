@@ -9,12 +9,14 @@ Install
 First download WinCI-server from: http://rubyforge.org/projects/ksob/
 
 Then you will need to supply yourself with the following software:
+
 	* Ruby 1.8.X   (can be obtained here: http://rubyinstaller.org/downloads/)
 	* DevKit		 (can be obtained here: http://rubyinstaller.org/downloads/)
 	* PortableGit  (can be obtained here: http://code.google.com/p/msysgit/)
   Note: WinCI-server could also work with other editions or versions of the software listed above although it has not been tested.
 
 Then unpack all three of them into the following directories of WinCI-server accordingly:
+	
 	* fixtures/Ruby
 	* fixtures/DevKit
 	* fixtures/PortableGit
@@ -57,6 +59,7 @@ To terminate Jenkins server:
 	$ shutdown_jenkins.bat
 	
 To prepare installation bundle used in provisioning process:
+	
 	* First edit .\fixtures\updater\_config.yaml to include your repository
 	* Then:
 	
