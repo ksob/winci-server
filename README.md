@@ -15,7 +15,9 @@ Then you will need to supply yourself with the following software:
 	* PortableGit  (can be obtained here: http://code.google.com/p/msysgit/)
   Note: WinCI-server could also work with other editions or versions of the software listed above although it has not been tested.
 
-Then unpack all three of them into the following directories of WinCI-server accordingly:
+Next go to WinCI-server directory.
+
+Then unpack all three of them into the following directories accordingly:
 	
 	* fixtures/Ruby
 	* fixtures/DevKit
@@ -23,7 +25,7 @@ Then unpack all three of them into the following directories of WinCI-server acc
 	
 After that you will need to run:
 
-	install.bat
+	$ install.bat
 
 Introduction
 =======
@@ -61,9 +63,8 @@ To terminate Jenkins server:
 To prepare installation bundle used in provisioning process:
 	
 	* First edit .\fixtures\updater\_config.yaml to include your repository
-	* Then:
-	
-	$ create_installation_pack.bat
+	* Then run: 
+		$ create_installation_pack.bat
 	
  Note: the installation pack is ment to be supplied to the target environment only once,
        after that the end-user of that environment is assumed to use updater.bat to replicate 
