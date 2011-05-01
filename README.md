@@ -1,20 +1,20 @@
 winci-server
 ============
 
-Important notice: Files for this project will be submited later today
-
 [WinCI] Provides ready made setup of Jenkins CI under Windows together with scripts automating integration with continuous deployment pipeline popular in Agile world.
 
 Install
 =======
 
-First you will need to supply yourself with the following software:
-	Ruby 1.8.X  (can be obtained from here: http://rubyinstaller.org/downloads/)
-	DevKit		(can be obtained from here: http://rubyinstaller.org/downloads/)
-	PortableGit (can be obtained from here: http://code.google.com/p/msysgit/)
+First download WinCI-server from: http://rubyforge.org/projects/ksob/
+
+Then you will need to supply yourself with the following software:
+	Ruby 1.8.X   (can be obtained here: http://rubyinstaller.org/downloads/)
+	DevKit		 (can be obtained here: http://rubyinstaller.org/downloads/)
+	PortableGit  (can be obtained here: http://code.google.com/p/msysgit/)
   Note: WinCI-server could also work with other editions or versions of the software listed above although it has not been tested.
 
-Then unpack all three of them into the following directories accordingly:
+Then unpack all three of them into the following directories of WinCI-server accordingly:
 	fixtures/Ruby
 	fixtures/DevKit
 	fixtures/PortableGit
@@ -71,7 +71,7 @@ License
 
 (The MIT License)
 
-Copyright (c) 2011 Kamil Sobieraj, ksobej\at\gmail.com
+Copyright (c) 2011 Kamil Sobieraj, ksobej@gmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
