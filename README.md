@@ -1,7 +1,7 @@
 winci-server
 ============
 
-[WinCI] Provides ready made setup of Jenkins CI under Windows together with scripts automating integration with continuous deployment pipeline popular in Agile world.
+[WinCI] Provides readymade setup of Jenkins CI under Windows together with scripts automating integration with continuous deployment pipeline popular in Agile world.
 
 Install
 =======
@@ -41,8 +41,8 @@ only then is he introduced to some configuration options.
 
 WinCI-server uses Jenkins.rb gem to automate installation and interaction with Jenkins CI and also ruby-git gem to automate CI provisioning. It provides functionality necessary to setup Jenkins CI and enabling to create installation bundle used in provisioning process.
 
-WinCI-server is intended to be be used in conjunction with WinCI, which is another gem containing functionality
-essential for developement environment, so that contains all the scripts that can be used by developer on his developement
+WinCI-server is intended to be used in conjunction with WinCI, which is another gem containing functionality
+essential for development environment, so that contains all the scripts that can be used by developer on his development
 machine as opposed to WinCI-server that is intended to be used on the server.
 
 Usage
@@ -55,7 +55,7 @@ To run local Jenkins server:
  Note: by default it opens at http://localhost:3010, to adjust you will need to modify restart_jenkins.rake
 
 To create jobs on the Jenkins server use winci gem. 
- Note: winci can be used from developement machine to control Jenkins server remotely.
+ Note: winci can be used from development machine to control Jenkins server remotely.
 	
 To terminate Jenkins server:
 
@@ -67,7 +67,7 @@ To prepare installation bundle used in provisioning process:
 	* Then run: 
 		$ create_installation_pack.bat
 	
- Note: the installation pack is ment to be supplied to the target environment only once,
+ Note: the installation pack is meant to be supplied to the target environment only once,
        after that the end-user of that environment is assumed to use updater.bat to replicate 
 	   fresh project's files/configuration from the server
 	   
