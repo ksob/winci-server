@@ -10,22 +10,23 @@ First download WinCI-server from: http://rubyforge.org/projects/ksob/
 
 Then you will need to supply yourself with the following software:
 
-	* Ruby 1.8.X   (can be obtained here: http://rubyinstaller.org/downloads/)
-	* DevKit		 (can be obtained here: http://rubyinstaller.org/downloads/)
-	* PortableGit  (can be obtained here: http://code.google.com/p/msysgit/)
+  * Ruby 1.8.X   (can be obtained here: http://rubyinstaller.org/downloads/)
+  * DevKit		 (can be obtained here: http://rubyinstaller.org/downloads/)
+  * PortableGit  (can be obtained here: http://code.google.com/p/msysgit/)
+  
   Note: WinCI-server could also work with other editions or versions of the software listed above although it has not been tested.
 
 Next go to WinCI-server directory.
 
 Then unpack all three of them into the following directories accordingly:
 	
-	* fixtures/Ruby
-	* fixtures/DevKit
-	* fixtures/PortableGit
+  * fixtures/Ruby
+  * fixtures/DevKit
+  * fixtures/PortableGit
 	
 After that you will need to run:
 
-	$ install.bat
+  $ install.bat
 
 Introduction
 =======
