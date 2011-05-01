@@ -9,17 +9,18 @@ Install
 First download WinCI-server from: http://rubyforge.org/projects/ksob/
 
 Then you will need to supply yourself with the following software:
-	Ruby 1.8.X   (can be obtained here: http://rubyinstaller.org/downloads/)
-	DevKit		 (can be obtained here: http://rubyinstaller.org/downloads/)
-	PortableGit  (can be obtained here: http://code.google.com/p/msysgit/)
+	* Ruby 1.8.X   (can be obtained here: http://rubyinstaller.org/downloads/)
+	* DevKit		 (can be obtained here: http://rubyinstaller.org/downloads/)
+	* PortableGit  (can be obtained here: http://code.google.com/p/msysgit/)
   Note: WinCI-server could also work with other editions or versions of the software listed above although it has not been tested.
 
 Then unpack all three of them into the following directories of WinCI-server accordingly:
-	fixtures/Ruby
-	fixtures/DevKit
-	fixtures/PortableGit
+	* fixtures/Ruby
+	* fixtures/DevKit
+	* fixtures/PortableGit
 	
 After that you will need to run:
+
 	install.bat
 
 Introduction
@@ -43,18 +44,24 @@ Usage
 =====
 
 To run local Jenkins server:
+
 	$ start_jenkins.bat
+	
  Note: by default it opens at http://localhost:3010, to adjust you will need to modify restart_jenkins.rake
 
 To create jobs on the Jenkins server use winci gem. 
  Note: winci can be used from developement machine to control Jenkins server remotely.
 	
 To terminate Jenkins server:
+
 	$ shutdown_jenkins.bat
 	
 To prepare installation bundle used in provisioning process:
-	edit .\fixtures\updater\_config.yaml to include your repository
+	* First edit .\fixtures\updater\_config.yaml to include your repository
+	* Then:
+	
 	$ create_installation_pack.bat
+	
  Note: the installation pack is ment to be supplied to the target environment only once,
        after that the end-user of that environment is assumed to use updater.bat to replicate 
 	   fresh project's files/configuration from the server
