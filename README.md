@@ -7,6 +7,7 @@ Install
 =======
 
 First download WinCI-server from: http://rubyforge.org/projects/ksob/
+Make sure that you extract it to directory with no spaces in name.
 
 Then you will need to supply yourself with the following software:
 
@@ -16,7 +17,7 @@ Then you will need to supply yourself with the following software:
   
   Note: WinCI-server could also work with other editions or versions of the software listed above although it has not been tested.
 
-Next go to WinCI-server directory.
+Next go to WinCI-server main directory.
 
 Then unpack all three of them into the following directories accordingly:
 	
@@ -24,9 +25,11 @@ Then unpack all three of them into the following directories accordingly:
   * fixtures/DevKit
   * fixtures/PortableGit
 	
-After that you will need to run:
+After that go again to WinCI-server main directory and run:
 
     $ install.bat
+
+Then follow instructions in the CMD window, you will be prompted to press Enter several times.
 
 Introduction
 =======
