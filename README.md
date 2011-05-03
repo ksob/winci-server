@@ -3,17 +3,35 @@ winci-server
 
 [WinCI] Provides readymade setup of Jenkins CI under Windows together with scripts automating integration with continuous deployment pipeline popular in Agile world.
 
+Introduction
+============
+
+WinCI-server is ingredient of WinCI project.
+The purpose of WinCI project is to simplify implementation of the full continuous deployment pipeline the Agile way with Jenkins/Hudson continuous integration server under Windows.
+
+WinCI-server lets Windows developers get quickly up and running with continuous deployment pipeline and 
+continuous integration by incorporating convention-over-configuration paradigm, so that the novice is first presented with 
+working setup with the click of a button and after he see it working and have overall empirical knowledge under his belt, 
+only then is he introduced to some configuration options.
+
+WinCI-server uses Jenkins.rb gem to automate installation and interaction with Jenkins CI and also ruby-git gem to automate CI provisioning. It provides functionality necessary to setup Jenkins CI and enabling to create installation bundle used in provisioning process.
+
+WinCI-server is intended to be used in conjunction with WinCI, which is another gem containing functionality
+essential for development environment, so that contains all the scripts that can be used by developer on his development
+machine as opposed to WinCI-server that is intended to be used on the server.
+
 Install
 =======
 
 First download WinCI-server from: http://rubyforge.org/projects/ksob/
-Make sure that you extract it to directory with no spaces in name.
+
+And extract it to directory with no spaces in name.
 
 Then you will need to supply yourself with the following software:
 
-  * Ruby 1.8.X   (can be obtained here: http://rubyinstaller.org/downloads/)
-  * DevKit		 (can be obtained here: http://rubyinstaller.org/downloads/)
-  * PortableGit  (can be obtained here: http://code.google.com/p/msysgit/)
+  * Ruby 1.8.X   ( can be obtained here: http://rubyinstaller.org/downloads/ )
+  * DevKit		 ( can be obtained here: http://rubyinstaller.org/downloads/ )
+  * PortableGit  ( can be obtained here: http://code.google.com/p/msysgit/ )
   
   Note: WinCI-server could also work with other editions or versions of the software listed above although it has not been tested.
 
@@ -30,23 +48,6 @@ After that go again to WinCI-server main directory and run:
     $ install.bat
 
 Then follow instructions in the CMD window, you will be prompted to press Enter several times.
-
-Introduction
-=======
-
-WinCI-server is ingredient of WinCI project.
-The purpose of WinCI project is to simplify implementation of the full continuous deployment pipeline the Agile way with Jenkins/Hudson continuous integration server under Windows.
-
-WinCI-server lets Windows developers get quickly up and running with continuous deployment pipeline and 
-continuous integration by incorporating convention-over-configuration paradigm, so that the novice is first presented with 
-working setup with the click of a button and after he see it working and have overall empirical knowledge under his belt, 
-only then is he introduced to some configuration options.
-
-WinCI-server uses Jenkins.rb gem to automate installation and interaction with Jenkins CI and also ruby-git gem to automate CI provisioning. It provides functionality necessary to setup Jenkins CI and enabling to create installation bundle used in provisioning process.
-
-WinCI-server is intended to be used in conjunction with WinCI, which is another gem containing functionality
-essential for development environment, so that contains all the scripts that can be used by developer on his development
-machine as opposed to WinCI-server that is intended to be used on the server.
 
 Usage
 =====
