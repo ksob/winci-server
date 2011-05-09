@@ -20,6 +20,13 @@ WinCI-server is intended to be used in conjunction with WinCI, which is another 
 essential for development environment, so that contains all the scripts that can be used by developer on his development
 machine as opposed to WinCI-server that is intended to be used on the server.
 
+Compatibility
+=============
+
+Successfully tested on the following mingw versions from RubyInstaller.org :
+
+	ruby 1.8.7 (2011-02-18 patchlevel 334) [i386-mingw32]
+	
 Install
 =======
 
